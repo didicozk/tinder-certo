@@ -4,22 +4,7 @@ import type React from "react"
 
 import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import {
-  Search,
-  Wifi,
-  Camera,
-  User,
-  Heart,
-  MapPin,
-  MessageCircle,
-  Shield,
-  AlertTriangle,
-  Lock,
-  Activity,
-  Eye,
-  CheckCircle,
-  X,
-} from "lucide-react"
+import { Search, Wifi, Camera, User, Heart, MapPin, MessageCircle, Shield, AlertTriangle, Lock, Activity, Eye, CheckCircle, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -1875,9 +1860,9 @@ export default function SigiloX() {
                       </p>
                     </div>
 
-                    {/* Direct Checkout Button - Fixed Text Overflow */}
+                    {/* Direct Checkout Button - Updated URL */}
                     <Button
-                      onClick={() => window.open("https://pay.mundpay.com/019827bf-dd10-703f-a9cf-64bad0eeb361?ref=", "_blank")}
+                      onClick={() => window.open("https://pay.mundpay.com/019827bf-dd10-703f-a9cf-64bad0eeb361?ref=ref_6882197dcd2fb", "_blank")}
                       className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-3 sm:py-4 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
                     >
                       <span className="block text-center leading-tight px-2">🔓 UNLOCK MY COMPLETE REPORT</span>
@@ -2007,9 +1992,9 @@ export default function SigiloX() {
                       </p>
                     </div>
 
-                    {/* CTA Button - Fixed Text Overflow */}
+                    {/* CTA Button - Updated URL */}
                     <Button
-                      onClick={() => (window.location.href = "/emergency")}
+                      onClick={() => window.open("https://pay.mundpay.com/019827bf-dd10-703f-a9cf-64bad0eeb361?ref=ref_6882197dcd2fb", "_blank")}
                       className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
                     >
                       <span className="block text-center leading-tight px-2">
